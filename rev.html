@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rev.css">
+    <title>Review Page</title>
+</head>
+
+<body>
+
+    <div class="quiz-container">
+        <div class="question" id="q1">
+            <p>Q1: Are You Satisfied With Our Service.......?</p>
+            <label><input type="radio" name="q1" value="yes"> Yes</label>
+            <label><input type="radio" name="q1" value="no"> No</label>
+        </div>
+
+        <div class="question" id="q2">
+            <p>Q2:Do You Fine Our Website User-Friendly......?</p>
+            <label><input type="radio" name="q2" value="yes"> Yes</label>
+            <label><input type="radio" name="q2" value="no"> No</label>
+        </div>
+
+        <div class="question" id="q3">
+            <p>Q3:Would You Recommend Us To Others......?</p>
+            <label><input type="radio" name="q3" value="yes"> Yes</label>
+            <label><input type="radio" name="q3" value="no"> No</label>
+        </div>
+
+        <button id="prevBtn" onclick="prevQuestion()">Previous</button>
+        <button id="nextBtn" onclick="nextQuestion()">Next</button>
+        <button id="submitBtn" onclick="submitQuiz()">Submit</button>
+        <p id="result">Result: </p>
+    </div>
+
+    <script src="rev.js"></script>
+    <script>
+        showQuestion(1);
+    </script>
+</body>
+
+</html>

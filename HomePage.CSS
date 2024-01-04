@@ -1,0 +1,149 @@
+.NameOfPage {
+
+    height: 70px;
+    font-size: 30px;
+    text-shadow: gray;
+    background-color: gray;
+    width: 1000px;
+}
+
+.main-div {
+    display: flex;
+    overflow: hidden;
+}
+
+.d1,
+.d2,
+.d3,
+.d4 {
+    margin: 50px;
+    margin-left: 150px;
+    justify-content: center;
+    margin-right: 300px;
+    align-items: center;
+}
+
+h2 {
+    margin-top: 8px;
+}
+
+nav {
+    border: 2px solid black;
+    height: 50px;
+    align-items: center;
+    position: sticky;
+
+    ul {
+        display: flex;
+        font-size: 20px;
+
+        li {
+            margin-right: 100px;
+            cursor: pointer;
+            margin-left: 100px;
+            color: black;
+        }
+    }
+}
+
+.contenar {
+    border: 2px solid black;
+    height: 500px;
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.Products {
+    border: 2px solid blue;
+    height: 450px;
+    width: 600px;
+    border-radius: 20px;
+}
+
+#img {
+    border: 2px solid red;
+    height: 290px;
+    width: 300px;
+    margin-top: 3px;
+    float: left;
+}
+
+.headerincon {
+    border: 3px solid hotpink;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.Btn input {
+    background-color: green;
+    border: 5px solid black;
+    border-radius: 10px;
+    color: white;
+    margin-top: 100px;
+    margin-left: 80px;
+    width: 200px;
+    transition: 0.5s;
+}
+
+.Btn input:hover {
+    letter-spacing: 3px;
+}
+
+.diiiiv {
+    background-color: gray;
+    display: flex;
+
+}
+
+.Btn1 {
+    border-radius: 15px;
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+}
+
+.Btn2 {
+    border-radius: 15px;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+}
+
+.Btns {
+    margin-left: 200px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+
+.Btn1,
+.Btn2:hover {
+    transition: 0.5s;
+    cursor: pointer;
+    letter-spacing: 3px;
+}
+
+footer {
+    border: 2px solid red;
+    background-color: burlywood;
+}
+
+.ss {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+}
+
+#img {
+    width: 20px;
+    height: 20px;
+}
